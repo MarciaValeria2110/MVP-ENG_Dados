@@ -1,7 +1,52 @@
 Autoavaliação
-
-Ao final do desenvolvimento deste projeto, faço uma reflexão sobre os objetivos propostos, as dificuldades encontradas durante a execução e as possibilidades de melhorias futuras.
+Ao final do desenvolvimento deste projeto, faço uma reflexão sobre os objetivos propostos, as dificuldades encontradas durante a
+execução e as possibilidades de melhorias futuras.
 
 Atingimento dos objetivos
+O principal objetivo do trabalho foi projetar e implementar um Data Warehouse com modelagem multidimensional (Esquema Estrela
+para analisar a cobertura de telefonia móvel 4G e 5G no Brasil, integrando dados de presença das operadoras, qualidade de experiência
+(QoE) e informações regionais.
 
-O principal objetivo do trabalho foi projetar e implementar um Data Warehouse com modelagem multidimensional (Esquema Estrela) para analisar a cobertura de telefonia móvel 4G e 5G no Brasil, integrando dados de presença das operadoras, qualidade de experiência (QoE) e informações regionais.
+Foi possível estruturar as tabelas de dimensões e fatos de forma coerente com os conceitos do negócio, definir corretamente o
+grão das tabelas fato e construir consultas analíticas capazes de responder às principais perguntas do problema, como 
+por UF, desempenho das operadoras, evolução da cobertura ao longo do tempo e identificação de regiões com menor presença de 5G.
+
+Dificuldades encontradas
+A principal dificuldade enfrentada durante o desenvolvimento do trabalho foi o pouco conhecimento prévio da plataforma Google Cloud,
+especialmente do BigQuery e do BigQuery Studio. A adaptação ao ambiente, às permissões de acesso, à execução de notebooks e ao 
+gerenciamento dos dados exigiu um esforço maior de aprendizado ao longo do projeto.
+
+Também enfrentei dificuldades relacionadas à exportação e disponibilização dos notebooks, pois os notebooks criados no BigQuery Studio
+possuem limitações para visualização direta em repositórios públicos como o GitHub. Para contornar esse problema, foi necessário buscar
+alternativas, como a exportação do notebook para formatos estáticos, o que contribuiu para um melhor entendimento das limitações 
+ferramentas utilizadas.
+
+Apesar dessas dificuldades, consegui superar os desafios gradualmente, o que contribuiu para o meu crescimento técnico e maior
+familiaridade com ambientes de dados em nuvem.
+
+Aprendizados adquiridos
+
+Durante a execução do projeto, adquiri aprendizados importantes, principalmente em:
+Modelagem dimensional e organização de Data Warehouses;
+Escrita de consultas SQL analíticas em ambiente de nuvem;
+Integração de diferentes conjuntos de dados;
+Documentação e organização de projetos de dados;
+Análise e interpretação de indicadores de cobertura e qualidade de serviço.
+
+Além disso, o projeto me proporcionou o primeiro contato prático mais aprofundado com o uso do BigQuery, o que ampliou
+minha visão sobre ferramentas utilizadas no mercado.
+
+Trabalhos futuros
+Como continuidade do trabalho, considero que o projeto pode ser ampliado com:
+Automatização dos processos de carga e atualização dos dados;
+Inclusão de mais períodos históricos para análises de tendência;
+Análises mais detalhadas em nível municipal;
+Criação de dashboards interativos para facilitar a visualização dos resultados;
+Exploração de técnicas estatísticas para identificar padrões de cobertura e qualidade.
+Essas melhorias tornariam o projeto mais completo e enriquecedor para o portfólio.
+
+Considerações finais
+Mesmo com as dificuldades iniciais relacionadas ao uso da plataforma, considero que o trabalho foi concluído de forma satisfatória e
+atingiu seus objetivos. O processo de aprendizado ao longo do projeto foi fundamental para o desenvolvimento das habilidades técnicas
+e para a compreensão prática de conceitos de engenharia e análise de dados.
+
