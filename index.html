@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Telefonia 4G & 5G | Data Warehouse</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="hero">
+  <h1>Telefonia Móvel 4G e 5G no Brasil</h1>
+  <p>Data Warehouse & Analytics Project (BigQuery)</p>
+  <div class="buttons">
+    <a href="https://github.com/MarciaValeria2110/telefonia-4g-5g-dw" target="_blank">GitHub Code</a>
+    <a href="LINK_DO_NOTEBOOK" target="_blank">BigQuery Notebook</a>
+  </div>
+</header>
+
+<section>
+  <h2>Project Overview</h2>
+  <p>
+    Este projeto constrói um Data Warehouse multidimensional para analisar a
+    cobertura da telefonia móvel 4G e 5G nos municípios brasileiros, integrando
+    dados de presença e Qualidade de Experiência (QoE).
+  </p>
+
+  <ul>
+    <li><b>Role:</b> Data Engineer / Data Analyst</li>
+    <li><b>Focus:</b> Data Warehouse · Telecom · Analytics</li>
+    <li><b>Stack:</b> BigQuery · SQL · GCP</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Key Findings</h2>
+  <ul>
+    <li>Desigualdade regional significativa na cobertura 5G</li>
+    <li>Estratégias distintas de expansão entre operadoras</li>
+    <li>QoE superior em 5G, porém com menor volume de testes</li>
+    <li>Lacunas críticas de cobertura em municípios periféricos</li>
+  </ul>
+</section>
+
+<section class="grid">
+  <div>
+    <h3>Ranking de UFs – Cobertura 4G x 5G</h3>
+    <img src="assets/images/ranking_uf.png">
+  </div>
+
+  <div>
+    <h3>Evolução Temporal da Cobertura</h3>
+    <img src="assets/images/evolucao_temporal.png">
+  </div>
+
+  <div>
+    <h3>QoE por Operadora e Tecnologia</h3>
+    <img src="assets/images/qoe_operadora.png">
+  </div>
+
+  <div>
+    <h3>QoE × Volume de Testes</h3>
+    <img src="assets/images/qoe_scatter.png">
+  </div>
+</section>
+
+<section>
+  <h2>Methodology</h2>
+  <ol>
+    <li>Ingestão de dados públicos (CSV) via GCS</li>
+    <li>Camada Bronze–Silver–Gold</li>
+    <li>Modelagem Estrela com PK/FK naturais</li>
+    <li>Views analíticas para BI</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Tech Stack</h2>
+  <p>
+    BigQuery · Google Cloud Storage · SQL · GitHub Pages
+  </p>
+</section>
+
+<section>
+  <h2>Impact & Use Cases</h2>
+  <ul>
+    <li>Identificação de lacunas de infraestrutura digital</li>
+    <li>Suporte a políticas públicas e regulação</li>
+    <li>Análise estratégica de mercado de telecom</li>
+  </ul>
+</section>
+
+<footer>
+  <p>Data Source: Dados públicos (ANATEL / IBGE)</p>
+  <p>Projeto acadêmico e analítico</p>
+</footer>
+
+</body>
+</html>
