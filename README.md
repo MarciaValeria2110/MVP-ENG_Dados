@@ -1,5 +1,7 @@
-# MVP-ENG_Dados
+# MVP-
+
 📡 Data Warehouse – Telefonia Móvel 4G e 5G no Brasil
+
 📌 Visão Geral
 Este projeto implementa um Data Warehouse multidimensional para análise da cobertura da telefonia móvel 4G e 5G nos municípios brasileiros, integrando dados de presença de infraestrutura e Qualidade de Experiência (QoE).
 A solução foi construída na Google Cloud Platform, utilizando BigQuery para processamento analítico.
